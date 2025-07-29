@@ -345,15 +345,15 @@ export default function HomePage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
             <div className="text-center p-6 border rounded-lg">
               <h3 className="text-lg font-semibold text-[#18176b] mb-2">International Flight</h3>
-              <p className="text-gray-600">Call FlyGlobe Inc via +447587623610 for booking assistance</p>
+              <p className="text-gray-600">Call Dano Airways Inc via +447587623610 for booking assistance</p>
             </div>
             <div className="text-center p-6 border rounded-lg">
               <h3 className="text-lg font-semibold text-[#18176b] mb-2">Check Refund</h3>
-              <p className="text-gray-600">Contact contact@flyglobe.online for check refund status</p>
+              <p className="text-gray-600">Contact info.dano@rwop.online for check refund status</p>
             </div>
             <div className="text-center p-6 border rounded-lg">
               <h3 className="text-lg font-semibold text-[#18176b] mb-2">Offer Deals</h3>
-              <p className="text-gray-600">FlyGlobe Inc Offer Deals Best Price Guarantee</p>
+              <p className="text-gray-600">Dano Airways Inc Offer Deals Best Price Guarantee</p>
             </div>
           </div>
         </div>
@@ -641,7 +641,7 @@ export default function HomePage() {
               <h3 className="text-lg font-semibold mb-4">Contacts</h3>
               <p className="mb-2">102 Woodland Ave, 92922 TX CA United States</p>
               <p className="mb-2">+447587623610</p>
-              <p>contact@flyglobe.online</p>
+              <p>info.dano@rwop.online</p>
             </div>
             <div>
               <h3 className="text-lg font-semibold mb-4">Newsletter</h3>
@@ -652,7 +652,7 @@ export default function HomePage() {
             </div>
           </div>
           <div className="border-t border-gray-600 mt-8 pt-8 text-center">
-            <p>Copyright © 2022. All Rights Reserved By FlyGlobe Inc</p>
+            <p>Copyright © 2022. All Rights Reserved By Dano Airways Inc</p>
           </div>
         </div>
       </footer>

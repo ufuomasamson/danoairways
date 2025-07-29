@@ -154,7 +154,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <div className="font-semibold">Email</div>
-                    <div className="text-gray-600">contact@flyglobe.online</div>
+                    <div className="text-gray-600">info.dano@rwop.online</div>
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
