@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Geist, Geist_Mono } from 'next/font/google';
 import './globals.css';
 import Navigation from '@/components/Navigation';
+import LiveChatWrapper from './components/LiveChatWrapper';
 // Using Supabase auth with cookie-based persistence for server components
 import { cookies } from 'next/headers';
 
@@ -57,6 +58,7 @@ export default async function RootLayout({
       >
         <Navigation user={user} userRole={userRole} currencies={currencies} />
         {children}
+        <LiveChatWrapper />
       </body>
     </html>
   );

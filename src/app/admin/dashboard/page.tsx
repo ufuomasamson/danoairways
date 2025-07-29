@@ -3,7 +3,9 @@ import { useEffect, useState, useRef } from 'react';
 import { useCurrencyStore } from '@/lib/currencyManager';
 import { useRouter } from 'next/navigation';
 import { downloadTicket } from '@/lib/downloadTicket';
+
 import MetricsCard from '@/components/MetricsCard';
+import AdminLiveChatPage from '../live-chat/page';
 
 export default function AdminDashboard() {
   // --- Basic state for admin dashboard ---
@@ -1003,6 +1005,12 @@ export default function AdminDashboard() {
                 <span>Manage Airlines</span>
               </button>
               <button
+                onClick={() => setSelectedPage('liveChat')}
+                className={`px-4 py-3 rounded-lg flex items-center gap-2 ${selectedPage === 'liveChat' ? 'bg-[#cd7e0f] text-white' : 'text-white hover:bg-[#442743]'}`}
+              >
+                <span>💬</span> Live Chat
+              </button>
+              <button
                 onClick={handleSignOut}
                 className="px-4 py-3 rounded-lg flex items-center gap-2 text-white hover:bg-[#442743] mt-8"
               >
@@ -1086,6 +1094,11 @@ export default function AdminDashboard() {
                   formatValue={(value) => `$${Number(value).toFixed(2)}`}
                 />
               </div>
+            </div>
+          )}
+          {selectedPage === 'liveChat' && (
+            <div className="flex-1 bg-white rounded-lg overflow-hidden">
+              <AdminLiveChatPage />
             </div>
           )}
           

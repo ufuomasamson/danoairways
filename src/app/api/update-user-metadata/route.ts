@@ -11,7 +11,7 @@ export async function POST(request: Request) {
 
     // Use service role key for admin operations
     const supabaseAdmin = createClient(
-      process.env.NEXT_PUBLIC_SUPABASE_URL || 'https://pbapixvhgiawwslnoipx.supabase.co',
+      process.env.NEXT_PUBLIC_SUPABASE_URL || 'https://vftrdqfciqacxanhzvvz.supabase.co',
       process.env.SUPABASE_SERVICE_ROLE_KEY || ''
     );
     

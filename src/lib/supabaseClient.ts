@@ -1,8 +1,8 @@
 import { createClient } from '@supabase/supabase-js';
 
 // Use environment variables from .env.local
-const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || 'https://pbapixvhgiawwslnoipx.supabase.co';
-const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBiYXBpeHZoZ2lhd3dzbG5vaXB4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTMzMDY5MDIsImV4cCI6MjA2ODg4MjkwMn0.uPPoUnLmHfQQOz7OfiwONZEGdjdBubVXJB5zghxdUx8';
+const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || 'https://vftrdqfciqacxanhzvvz.supabase.co';
+const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZmdHJkcWZjaXFhY3hhbmh6dnZ6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTM3NzczNTAsImV4cCI6MjA2OTM1MzM1MH0.x3k3-_FQEPKGSOTREDrzGFoRknVXsnzGvsWA9j133-s';
 
 console.log('Initializing Supabase with URL:', supabaseUrl);
 console.log('Supabase key available:', !!supabaseAnonKey);
