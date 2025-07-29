@@ -131,7 +131,7 @@ export default function BankDetailsPage() {
                 setMessage('');
                 setError('');
               }}
-              placeholder="Bank Name: First National Bank&#10;Account Name: Mazo Airways Inc.&#10;Account Number: 1234567890&#10;Routing Number: 021000021&#10;&#10;Additional Instructions:&#10;Please include your booking ID in the transfer description"
+              placeholder="Bank Name: First National Bank&#10;Account Name: Dano Airways Inc.&#10;Account Number: 1234567890&#10;Routing Number: 021000021&#10;&#10;Additional Instructions:&#10;Please include your booking ID in the transfer description"
               rows={12}
               className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent font-mono text-sm resize-y"
             />

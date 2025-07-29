@@ -7,7 +7,7 @@ export async function GET(request: Request) {
     const mockReference = 'test_ref_' + Date.now();
     
     // Apply the same logic as in the charge endpoint
-    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://mazoairways.vercel.app';
+    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://danoairways.vercel.app';
     const callbackUrl = `${baseUrl}/payment/callback?reference=${mockReference}`;
     
     const paystackUrl = new URL(mockPaystackUrl);

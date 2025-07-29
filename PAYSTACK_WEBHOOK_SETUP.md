@@ -9,19 +9,19 @@
 3. **Add these webhook URLs:**
 
 #### Live Environment:
-- **Webhook URL**: `https://mazoairways.vercel.app/api/payment/paystack/webhook`
+- **Webhook URL**: `https://danoairways.vercel.app/api/payment/paystack/webhook`
 - **Events to subscribe to**:
   - `charge.success` ✅ (Required)
   - `charge.failed` (Optional but recommended)
 
 #### Test Environment (if testing):
-- **Webhook URL**: `https://mazoairways.vercel.app/api/payment/paystack/webhook`
+- **Webhook URL**: `https://danoairways.vercel.app/api/payment/paystack/webhook`
 - **Events**: Same as live
 
 ### 2. Configure Callback URLs
 
 1. **In Paystack Dashboard > Settings > API Keys & Webhooks**
-2. **Set Callback URL**: `https://mazoairways.vercel.app/payment/callback`
+2. **Set Callback URL**: `https://danoairways.vercel.app/payment/callback`
 
 ### 3. Environment Variables
 
@@ -53,17 +53,17 @@ NEXT_PUBLIC_PAYSTACK_PUBLIC_KEY=pk_live_your_public_key_here
 ## Testing the Setup
 
 ### 1. Manual Payment Verification
-- Visit: `https://mazoairways.vercel.app/verify-payment`
+- Visit: `https://danoairways.vercel.app/verify-payment`
 - Enter payment reference
 - Click "Verify Payment" or "Fix Booking Status"
 
 ### 2. Debug Payment Issues
-- Visit: `https://mazoairways.vercel.app/api/debug-payment?reference=YOUR_REFERENCE`
+- Visit: `https://danoairways.vercel.app/api/debug-payment?reference=YOUR_REFERENCE`
 - Check payment status and booking details
 
 ### 3. Test Webhook
 You can test the webhook manually by sending a POST request to:
-`https://mazoairways.vercel.app/api/payment/paystack/webhook`
+`https://danoairways.vercel.app/api/payment/paystack/webhook`
 
 ## Troubleshooting
 

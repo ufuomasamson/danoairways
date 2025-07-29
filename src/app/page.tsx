@@ -247,7 +247,7 @@ export default function HomePage() {
           {/* Centered Hero Text */}
           <div className="w-full flex flex-col justify-center items-center py-8 sm:py-12 lg:py-20 text-center">
             <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-4 sm:mb-6 leading-tight text-white">A Lifetime Of Discounts? It's Genius.</h1>
-            <p className="text-base sm:text-lg md:text-xl lg:text-2xl mb-6 sm:mb-8 max-w-xl text-white">Get rewarded for your travels unlock savings of 10% or more with free Mazo Airways account.</p>
+            <p className="text-base sm:text-lg md:text-xl lg:text-2xl mb-6 sm:mb-8 max-w-xl text-white">Get rewarded for your travels unlock savings of 10% or more with free Dano Airways account.</p>
           </div>
         </div>
       </section>
@@ -257,7 +257,7 @@ export default function HomePage() {
         <div className="max-w-6xl mx-auto">
           <div className="bg-white rounded-lg shadow-2xl p-4 sm:p-6 lg:p-8">
             <div className="text-center mb-4 sm:mb-6">
-              <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#18176b] mb-2">MAZO AIRWAYS</h2>
+              <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#18176b] mb-2">DANO AIRWAYS</h2>
             </div>
             {/* Flight Booking Form */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-4">
@@ -431,7 +431,7 @@ export default function HomePage() {
         <div className="relative grid grid-cols-1 md:grid-cols-2">
           <div className="p-8 md:p-12 text-white flex flex-col justify-center">
             <h2 className="text-4xl font-bold mb-6">Your Great Destination</h2>
-            <p className="text-lg mb-8">Get rewarded for your travels with Mazol Inc  unlock instant savings of 10% or more with a free +447587623610 account</p>
+            <p className="text-lg mb-8">Get rewarded for your travels with Dano Inc  unlock instant savings of 10% or more with a free +447587623610 account</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
               <div className="flex items-center gap-4">
                 <svg className="w-10 h-10 text-[#d18a27]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.653-.121-1.28-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.653.121-1.28.356-1.857m0 0a5.002 5.002 0 019.288 0M12 14a4 4 0 100-8 4 4 0 000 8z"></path></svg>

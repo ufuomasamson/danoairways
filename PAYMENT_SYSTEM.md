@@ -1,6 +1,6 @@
 # Payment System Guide
 
-This document provides a comprehensive guide to the payment system in the Mazo Airways application after migration to Supabase.
+This document provides a comprehensive guide to the payment system in the Dano Airways application after migration to Supabase.
 
 ## 1. Payment Flow Overview
 

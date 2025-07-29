@@ -72,7 +72,7 @@ export async function POST(request: Request) {
     const amountInSmallestUnit = Math.round(amount * 100);
 
     // Prepare payload for Paystack charge
-    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://mazoairways.vercel.app';
+    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://danoairways.vercel.app';
     const callbackUrl = `${baseUrl}/payment/callback?reference=${Date.now()}_${bookingId}`;
     
     const chargeData = {
@@ -240,7 +240,7 @@ export async function POST(request: Request) {
         console.log('3D Secure authentication required, original URL:', data.url);
         
         // Create a custom 3D Secure URL that includes our callback
-        const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://mazoairways.vercel.app';
+        const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://danoairways.vercel.app';
         const customCallbackUrl = `${baseUrl}/payment/callback?reference=${data.reference}&from=3ds`;
         
         // Try to append our callback to the 3DS URL if possible

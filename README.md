@@ -1,4 +1,4 @@
-# 🛫 Mazo Airways
+# 🛫 Dano Airways
 
 A modern, full-stack flight booking application built with Next.js, Supabase, and Paystack, Crypto payment integration.
 
@@ -50,8 +50,8 @@ A modern, full-stack flight booking application built with Next.js, Supabase, an
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/ufuomasamson/mazoairways.git
-cd mazoairways
+git clone https://github.com/ufuomasamson/danoairways.git
+cd danoairways
 ```
 
 ### 2. Install Dependencies

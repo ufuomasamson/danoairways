@@ -138,7 +138,7 @@ export default function PaymentSuccess() {
               </svg>
             </div>
             <h1 className="text-3xl font-bold text-gray-900 mb-2">Payment Successful!</h1>
-            <p className="text-gray-600">Your Mazo Airways flight has been confirmed</p>
+            <p className="text-gray-600">Your Dano Airways flight has been confirmed</p>
           </div>
 
           {paymentDetails && (

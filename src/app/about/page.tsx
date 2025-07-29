@@ -4,7 +4,7 @@ export default function AboutPage() {
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-[#18176b] to-[#18176b]/90 text-white py-20">
         <div className="max-w-4xl mx-auto text-center px-4">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">About Mazo Airways</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6">About Dano Airways</h1>
           <p className="text-xl">Your trusted partner in air travel, making journeys memorable and seamless</p>
         </div>
       </section>
@@ -17,7 +17,7 @@ export default function AboutPage() {
             <div>
               <h2 className="text-3xl font-bold text-[#18176b] mb-6">Your Journey, Our Passion</h2>
               <p className="text-lg text-gray-700 mb-4">
-                Mazo Airways is a leading online travel platform dedicated to making air travel simple, 
+                Dano Airways is a leading online travel platform dedicated to making air travel simple, 
                 transparent, and accessible for everyone. Founded with a vision to revolutionize the 
                 way people book and manage their flights, we've been serving travelers worldwide since 2020.
               </p>
@@ -42,7 +42,7 @@ export default function AboutPage() {
               </div>
             </div>
             <div className="bg-gradient-to-br from-[#18176b] to-[#cd7e0f] p-8 rounded-xl text-white shadow-lg">
-              <h3 className="text-2xl font-bold mb-4">Why Choose Mazo Airways?</h3>
+              <h3 className="text-2xl font-bold mb-4">Why Choose Dano Airways?</h3>
               <ul className="space-y-3">
                 <li className="flex items-center gap-3">
                   <div className="w-6 h-6 bg-white rounded-full flex items-center justify-center">
@@ -171,7 +171,7 @@ export default function AboutPage() {
         {/* Contact CTA */}
         <section className="bg-gradient-to-r from-[#18176b] to-[#18176b]/90 text-white p-8 rounded-xl text-center shadow-lg">
           <h2 className="text-2xl font-bold mb-4">Ready to Start Your Journey?</h2>
-          <p className="mb-6">Join thousands of satisfied customers who trust Mazo Airways for their travel needs.</p>
+          <p className="mb-6">Join thousands of satisfied customers who trust Dano Airways for their travel needs.</p>
           <div className="flex gap-4 justify-center">
             <a href="/search" className="bg-[#cd7e0f] text-white px-6 py-3 rounded-lg hover:bg-[#cd7e0f]/90 transition-colors duration-300">
               Search Flights

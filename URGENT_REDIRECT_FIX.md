@@ -18,7 +18,7 @@ Paystack dashboard callback URL not configured properly.
 3. **Find**: "Callback URL" section
 4. **Set Live Callback URL** to:
    ```
-   https://mazoairways.vercel.app/payment/callback
+   https://danoairways.vercel.app/payment/callback
    ```
 
 ### Step 2: Configure Webhooks (For Backup)
@@ -26,7 +26,7 @@ Paystack dashboard callback URL not configured properly.
 1. **In same Settings page**: Find "Webhooks" section
 2. **Add Webhook URL**:
    ```
-   https://mazoairways.vercel.app/api/payment/paystack/webhook
+   https://danoairways.vercel.app/api/payment/paystack/webhook
    ```
 3. **Select Events**: `charge.success` ✅
 
@@ -69,7 +69,7 @@ Paystack dashboard callback URL not configured properly.
 3. **Check webhook delivery logs**
 
 ### Manual Override:
-- Visit: `https://mazoairways.vercel.app/verify-payment`
+- Visit: `https://danoairways.vercel.app/verify-payment`
 - Enter payment reference
 - Click "Verify Payment"
 
@@ -80,7 +80,7 @@ Paystack dashboard callback URL not configured properly.
 After configuring Paystack dashboard:
 1. Make a small test payment
 2. Complete 3D Secure
-3. Should redirect to: `https://mazoairways.vercel.app/payment/callback?reference=...`
+3. Should redirect to: `https://danoairways.vercel.app/payment/callback?reference=...`
 4. Should NOT see "close page"
 
 ---

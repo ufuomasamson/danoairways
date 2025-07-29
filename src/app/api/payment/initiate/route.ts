@@ -78,7 +78,7 @@ export async function POST(request: Request) {
         phone_number: user.phone || ''
       },
       customizations: {
-        title: 'Mazo Airways Payment',
+        title: 'Dano Airways Payment',
         description: `Payment for flight ${booking.flights?.flight_number || 'N/A'}`,
         logo: `${process.env.NEXT_PUBLIC_BASE_URL}/logo.png`
       },

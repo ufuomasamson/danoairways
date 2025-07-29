@@ -39,7 +39,7 @@ export default function Navigation({ user, userRole, currencies }: NavigationPro
   return (
     <nav className="sticky top-0 z-50 bg-[#18176b]">
       <div className="flex items-center justify-between px-4 sm:px-8 py-4">
-        <Link href="/" className="text-xl sm:text-2xl font-bold text-white tracking-tight">Mazo Airways</Link>
+        <Link href="/" className="text-xl sm:text-2xl font-bold text-white tracking-tight">Dano Airways</Link>
         
         {/* Desktop Navigation */}
         <div className="hidden md:flex gap-6 lg:gap-8 items-center text-sm lg:text-base font-medium">

@@ -23,7 +23,7 @@ app.prepare().then(() => {
     
   }).listen(port, (err) => {
     if (err) throw err;
-    console.log(`> Mazo Airways application ready on http://localhost:${port}`);
+    console.log(`> Dano Airways application ready on http://localhost:${port}`);
     console.log(`> Mode: ${dev ? 'development' : 'production'}`);
   });
 });

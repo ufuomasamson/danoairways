@@ -8,13 +8,13 @@ Paystack's 3D Secure authentication sometimes doesn't redirect users back to you
 ### For Users Who See "Close Page":
 
 1. **After completing 3D Secure authentication and seeing "close page"**
-2. **Visit**: `https://mazoairways.vercel.app/payment/complete`
+2. **Visit**: `https://danoairways.vercel.app/payment/complete`
 3. **Enter your payment reference** (if prompted)
 4. **System will automatically verify** your payment and update booking
 
 ### Alternative Options:
 
-- **Manual Verification**: `https://mazoairways.vercel.app/verify-payment`
+- **Manual Verification**: `https://danoairways.vercel.app/verify-payment`
 - **Enter payment reference** to manually check and update booking status
 
 ---
@@ -35,11 +35,11 @@ Paystack's 3D Secure authentication sometimes doesn't redirect users back to you
 > **💡 Payment Completion Instructions:**
 > 
 > If you completed your 3D Secure authentication but see a "close page" message:
-> 1. Go to: mazoairways.vercel.app/payment/complete
+> 1. Go to: danoairways.vercel.app/payment/complete
 > 2. Your payment will be automatically verified
 > 3. Your booking will be confirmed
 > 
-> **Need help?** Visit our manual verification page: mazoairways.vercel.app/verify-payment
+> **Need help?** Visit our manual verification page: danoairways.vercel.app/verify-payment
 
 ---
 
@@ -65,8 +65,8 @@ Paystack's 3D Secure authentication sometimes doesn't redirect users back to you
 3. **Add FAQ entry** with instructions above
 
 ### Paystack Dashboard (Already Done):
-- ✅ Callback URL: `https://mazoairways.vercel.app/payment/callback`
-- ✅ Webhook URL: `https://mazoairways.vercel.app/api/payment/paystack/webhook`
+- ✅ Callback URL: `https://danoairways.vercel.app/payment/callback`
+- ✅ Webhook URL: `https://danoairways.vercel.app/api/payment/paystack/webhook`
 
 ---
 

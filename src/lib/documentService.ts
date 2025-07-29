@@ -50,7 +50,7 @@ export async function createFlight(databases, flightData) {
 export async function createAirline(databases, airlineData) {
   // Set default values for required fields if not provided
   const airline = {
-    name: airlineData.name || "Mazo Airways",
+    name: airlineData.name || "Dano Airways",
     logo_url: airlineData.logo_url || "https://storage.appwrite.io/airline_logos/ua_logo.png"
   };
 

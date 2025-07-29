@@ -1,6 +1,6 @@
 # Booking System Flow
 
-This document outlines how the booking system works in the Mazo Airways application after migration to Supabase.
+This document outlines how the booking system works in the Dano Airways application after migration to Supabase.
 
 ## 1. Booking Flow Overview
 
